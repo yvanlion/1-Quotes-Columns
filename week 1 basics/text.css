@@ -1,0 +1,49 @@
+
+
+* {
+    background-color: black;
+    color: white;
+    
+  }
+
+ html {
+font-size: 1.406rem ;
+ }
+ 
+ 
+ .header {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+
+
+  #container {
+   display: flex;
+   justify-content: space-around;
+   column-gap: 2.5rem;
+   align-items: center;
+    }
+  
+  .btype {
+    float: left;
+    width: 33.33%;  
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  #wholepage {
+    width: 43.75rem;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+ 
+    
+  }
+  
